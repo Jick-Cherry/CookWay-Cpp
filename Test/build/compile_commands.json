@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Zhang/Repositories/CookWay-Cpp/Test/build",
+  "command": "C:\\Users\\Zhang\\Documents\\mingw64devkit\\bin\\g++.exe   -g -o CMakeFiles\\TEST.dir\\main.cpp.obj -c C:\\Users\\Zhang\\Repositories\\CookWay-Cpp\\Test\\main.cpp",
+  "file": "C:/Users/Zhang/Repositories/CookWay-Cpp/Test/main.cpp",
+  "output": "CMakeFiles/TEST.dir/main.cpp.obj"
+}
+]
