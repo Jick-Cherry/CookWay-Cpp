@@ -26,7 +26,7 @@ C:/Users/Zhang/Repositories/CookWay-Cpp/Test/build/CMakeFiles/ContinuousTest.dir
 C:/Users/Zhang/Repositories/CookWay-Cpp/Test/build/CMakeFiles/ContinuousCoverage.dir
 C:/Users/Zhang/Repositories/CookWay-Cpp/Test/build/CMakeFiles/ContinuousMemCheck.dir
 C:/Users/Zhang/Repositories/CookWay-Cpp/Test/build/CMakeFiles/ContinuousSubmit.dir
-C:/Users/Zhang/Repositories/CookWay-Cpp/Test/build/CMakeFiles/TEST.dir
+C:/Users/Zhang/Repositories/CookWay-Cpp/Test/build/CMakeFiles/main.dir
 C:/Users/Zhang/Repositories/CookWay-Cpp/Test/build/CMakeFiles/package.dir
 C:/Users/Zhang/Repositories/CookWay-Cpp/Test/build/CMakeFiles/package_source.dir
 C:/Users/Zhang/Repositories/CookWay-Cpp/Test/build/CMakeFiles/test.dir
