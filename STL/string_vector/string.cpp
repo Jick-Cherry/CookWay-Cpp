@@ -1,6 +1,7 @@
+//输入输出流对象cin和cout在这一文件里定义
 #include <iostream>
 
-// 使用前需要包含头文件或包含标准库成员
+// 使用前需要包含头文件或包含标准库成员，本文中的两个库至少要包含一个才不会报错?
 // #include <string>
 using std::string;
 
