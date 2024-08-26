@@ -25,7 +25,7 @@ int main()
 
     //向string对象中读入数据，从空白结束处开始直到下一次空白为止
     //如下，键盘输入Hello World，实际只读入了Hello
-    cin >> s1;
+    // cin >> s1;
 
     //也可以用如下方式，先s1，后s2
     //cin >> s1 >> s2;
@@ -44,6 +44,18 @@ int main()
     //     cout << line <<endl;
     // }
     
-
+    while(getline(cin, s1))
+        //输出长度大于5字符的串
+        if (s1.size() > 5)
+        {
+            cout << s1 << endl;
+        }
+        //输出非空串
+        if (!s1.empty())
+        {
+            cout << s1 << endl;
+        }
+    //以上两个函数的返回值为string::size_type，无符号数，因此避免使用int等有符号数，避免因转换产生报错
+    
 
 }
