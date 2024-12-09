@@ -1,0 +1,3 @@
+/home/jick/Documents/Repositories/CookWay-Cpp/Soldier_Fire/build/CMakeFiles/rebuild_cache.dir
+/home/jick/Documents/Repositories/CookWay-Cpp/Soldier_Fire/build/CMakeFiles/edit_cache.dir
+/home/jick/Documents/Repositories/CookWay-Cpp/Soldier_Fire/build/CMakeFiles/my_cmake_exe.dir

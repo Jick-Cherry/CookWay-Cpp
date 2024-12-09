@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Gun.h
+string
+-
+
+../include/Soldier.h
+string
+-
+Gun.h
+../include/Gun.h
+
+/home/jick/Documents/Repositories/CookWay-Cpp/Soldier_Fire/src/Soldier.cpp
+Soldier.h
+/home/jick/Documents/Repositories/CookWay-Cpp/Soldier_Fire/src/Soldier.h
+
