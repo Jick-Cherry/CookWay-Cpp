@@ -1,8 +1,7 @@
 [
 {
-  "directory": "C:/Users/Zhang/Repositories/CookWay-Cpp/TCP_IP/build",
-  "command": "C:\\Users\\Zhang\\Documents\\mingw64devkit\\bin\\g++.exe   -g -o CMakeFiles\\my_cmake_exe.dir\\main.cpp.obj -c C:\\Users\\Zhang\\Repositories\\CookWay-Cpp\\TCP_IP\\main.cpp",
-  "file": "C:/Users/Zhang/Repositories/CookWay-Cpp/TCP_IP/main.cpp",
-  "output": "CMakeFiles/my_cmake_exe.dir/main.cpp.obj"
+  "directory": "/home/jick/Documents/Repositories/CookWay-Cpp/TCP_IP/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/my_cmake_exe.dir/main.cpp.o -c /home/jick/Documents/Repositories/CookWay-Cpp/TCP_IP/main.cpp",
+  "file": "/home/jick/Documents/Repositories/CookWay-Cpp/TCP_IP/main.cpp"
 }
 ]

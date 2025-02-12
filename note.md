@@ -1,5 +1,4 @@
-const int month = 12;
-#define Day 7
+# 记录每天学习的内容
 
 标识符命名规则
 1. 字母数字下划线
