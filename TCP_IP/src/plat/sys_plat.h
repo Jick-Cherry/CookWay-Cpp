@@ -1,4 +1,4 @@
-
+#include <pcap.h> //这个引用是我猜的，未必正确
 #include <stdint.h>
 #include <time.h>
 
@@ -25,6 +25,18 @@ static const char netdev0_mask[] = "255.255.255.0";
 
 #if 1
 
+#define plat_strlen        kernel_strlen
+#define plat_strcpy        kernel_strcpy
+#define plat_strncpy       kernel_strncpy
+#define plat_strcmp        kernel_strcmp
+#define plat_stricmp       kernel_stricmp
+#define plat_memset        kernel_memset
+#define plat_memcpy        kernel_memcpy
+#define plat_memcmp        kernel_memcmp
+#define plat_sprintf       kernel_sprintf
+#define plat_vsprintf      kernel_vsprintf
+#define plat_printf        kernel_printf
+
 #else
 
 #include <windows.h> //不知道是什么头文件
@@ -35,6 +47,19 @@ static const char netdev0_mask[] = "255.255.255.0";
 typedef DWORD net_time_t; //时间类型
 
 
+
+
+#define plat_strlen        strlen
+#define plat_strcpy        strcpy
+#define plat_strncpy       strncpy
+#define plat_strcmp        strcmp
+#define plat_stricmp       _stricmp
+#define plat_memset        memset
+#define plat_memcpy        memcpy
+#define plat_memcmp        memcmp
+#define plat_sprintf       sprintf
+#define plat_vsprintf      vsprintf
+#define plat_printf        printf
 
 #endif
 

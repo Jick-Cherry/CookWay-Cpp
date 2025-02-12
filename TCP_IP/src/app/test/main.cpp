@@ -20,8 +20,29 @@ int main(){
     while (pcap)
     {
         static uint8_t buffer[1024];
+        static int counter = 0;
+        // struct pcap_pkthdr * pkthdr; //缓冲区数据存入此处
+        // const uint8_t * pkt_data; //数据缓冲区
 
-        plat_printf();
+        plat_printf("begin test: %d\n, counter++");
+        for (int i = 0; i < sizeof(buffer); i++)
+        {
+            buffer[i] = i;
+        }
+
+        // if(pcap_next_ex(pcap, &pkthdr, &pkt_data) != 1){
+        //     continue;
+        // }
+        
+        if (pcap_inject(pcap, buffer, sizeof(buffer)) == -1)
+        {
+            plat_printf("pcap send: send packet failed %s\n", pcap_geterr(pcap));
+            break;
+        }
+        
+        //循环过快导致系统开销过大
+        sys_sleep(100);
+
     }
     
     std::cout << "Hello, TCP_IP"; //change cpp style
